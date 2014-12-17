@@ -1,0 +1,1 @@
+//Note that inline functions cannot be declared and defined sepparately, so Lerp.cpp is empty.
