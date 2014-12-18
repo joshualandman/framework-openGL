@@ -74,7 +74,8 @@ Shader::Shader(char* vertexShaderFile, char* fragmentShaderFile)
 	glEnableVertexAttribArray(vTexCoord);
 
 	//texture = glGetUniformLocation(program, "texture");
-	//glBindTexture(GL_TEXTURE_2D, texture);
+	//glBindTexture(GL_TEXTURE_2D, texture);
+
 }
 void Shader::loadTexture(char* textureFileName, GLuint* textureIDPtr)
 {

@@ -5,10 +5,12 @@ Window::Window(char* name, int widthIn, int heightIn)
 	width = widthIn;
 	height = heightIn;
 
-	glutInitDisplayMode( GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH );
+	//*//glutInitDisplayMode( GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH );
+	
 		
-	glutInitWindowSize(width, height);
-	glutCreateWindow( name );
+	//glutInitWindowSize(width, height);
+	//glutCreateWindow( name );
+	 win = glfwCreateWindow( height, width, name, NULL, NULL);
 
 	//Whenever the draw command clears the color buffer, this color covers the screen
 	float cornflowerBlue[] = {.392, .584, .929};

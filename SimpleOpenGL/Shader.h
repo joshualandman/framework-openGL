@@ -3,7 +3,8 @@
 #include <stdlib.h>
 #include <iostream>
 #include "glew.h"
-#include "glut.h"
+#include "GL\x86\include\GL\glfw3.h"
+//#include "glut.h"
 #include <GL\GL.h>
 #include "SOIL.h"
 using namespace std;

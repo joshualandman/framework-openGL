@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <iostream>
 #include "glew.h"
-#include "glut.h"
+#include "GL\x86\include\GL\glfw3.h"
+//#include "glut.h"
 #include <GL\GL.h>
 #include <stdio.h>
 #include <cstdlib>
@@ -107,6 +108,7 @@ void keyboard( unsigned char key, int x, int y )
     } 
     
     glutPostRedisplay();
+	glfwpostred
 }
 
 void mouseInit()
@@ -289,7 +291,7 @@ void mouselook(int x, int y)
 	}
 	
 	camera1.update();
-	
+		
 	glutPostRedisplay();
 }
 int model;
@@ -380,12 +382,14 @@ void draw( void )
 		loadAndDrawGameObject(&go);
 	}
 
-	glutSwapBuffers();
+	//glutSwapBuffers();
+	glfwSwapBuffers(window1.win);
 }
 
 int main(int argc, char **argv)
 {
-	glutInit( &argc, argv );
+	glfwInit();
+	//glutInit( &argc, argv );
 
 	window1 = Window("New OpenGL Project", 800, 800);
 	
@@ -394,6 +398,7 @@ int main(int argc, char **argv)
 
 	glewInit();
 		mouseInit();
+	
 	glutMouseFunc( mouseclick );
 	glutPassiveMotionFunc( mouselook );
 	glutKeyboardFunc( keyboard );
@@ -437,6 +442,7 @@ int main(int argc, char **argv)
 	goVector.push_back(goModel);
 
     glutMainLoop();
+
 
 	return 0;
 }

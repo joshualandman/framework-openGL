@@ -18,6 +18,7 @@
 #include <OPENGL/gl.h>
 #else
 #include "glew.h"
+#include "GL\x86\include\GL\glfw3.h"
 #include <GL/gl.h>
 #endif
 
@@ -80,6 +81,7 @@ void printShaderInfoLog(GLuint obj)
     GLsizei charsWritten  = 0;
     char *infoLog;
 
+	
 	glGetShaderiv(obj, GL_INFO_LOG_LENGTH,&infologLength);
 
     if (infologLength > 0)
