@@ -107,14 +107,15 @@ void keyboard( unsigned char key, int x, int y )
 					break;
     } 
     
-    glutPostRedisplay();
-	glfwpostred
+    //glutPostRedisplay();
+	glfwRestoreWindow(window1.win);
 }
 
 void mouseInit()
 {
 	//Hide the cursor for FPS-style mouselook
-	glutSetCursor(GLUT_CURSOR_NONE);
+	//glutSetCursor(GLUT_CURSOR_NONE);
+	glfwSetInputMode(window1.win, GLFW_CURSOR, GLFW_CURSOR_HIDDEN);
 }
 
 void spawnSphere()
@@ -261,22 +262,30 @@ int loadObject(const char* fileName)
 
 void mouseclick(int button, int state, int x, int y)
 {
-	if (state == GLUT_DOWN)
+	if (state == GLFW_PRESS)
 	{
 		switch(button)
 		{
-			case GLUT_LEFT_BUTTON:	break;	// Left click functionality
-			case GLUT_RIGHT_BUTTON:	break;	//Right click functionality
+			case GLFW_MOUSE_BUTTON_LEFT:	break;	// Left click functionality
+			case GLFW_MOUSE_BUTTON_RIGHT:	break;	//Right click functionality
 		}
 	}
 
 	spawnSphere();
 
-	glutPostRedisplay();
+
+	//glutPostRedisplay();
+	glfwRestoreWindow(window1.win);
 }
 
-void mouselook(int x, int y)
+double* xPos;
+double* yPos;
+
+void mouselook(double x, double y)
 {
+	xPos = &x;
+	yPos = &y;
+
 	float ms = .005; //mouse speed
 
 	int dx = window1.width/2 - x;
@@ -287,12 +296,14 @@ void mouselook(int x, int y)
 
 	if (dx != 0 || dy != 0)
 	{
-		glutWarpPointer(window1.width/2,window1.height/2);
+		//glutWarpPointer(window1.width/2,window1.height/2);
+		glfwSetCursorPos(window1.win, window1.width/2, window1.height/2);
 	}
 	
 	camera1.update();
 		
-	glutPostRedisplay();
+	//glutPostRedisplay();
+	glfwRestoreWindow(window1.win);
 }
 int model;
 void assetManagerInit()
@@ -399,10 +410,14 @@ int main(int argc, char **argv)
 	glewInit();
 		mouseInit();
 	
-	glutMouseFunc( mouseclick );
-	glutPassiveMotionFunc( mouselook );
-	glutKeyboardFunc( keyboard );
-	glutDisplayFunc( draw );
+	glfwSetMouseButtonCallback(window1.win, GLFWmousebuttonfun( mouseclick) );
+	GLFWcursorposfun( mouselook);
+	glfwGetCursorPos(window1.win, xPos, yPos);
+	//glutPassiveMotionFunc( mouselook );
+	glfwSetKeyCallback(window1.win, GLFWkeyfun( keyboard));
+	//glutKeyboardFunc( keyboard );
+	glfwSetWindowRefreshCallback(window1.win, GLFWwindowrefreshfun( draw ));
+	//glutDisplayFunc( draw );
 
 	shader1 = Shader("vshader.glsl", "fshader.glsl");
 	
@@ -442,7 +457,6 @@ int main(int argc, char **argv)
 	goVector.push_back(goModel);
 
     glutMainLoop();
-
 
 	return 0;
 }

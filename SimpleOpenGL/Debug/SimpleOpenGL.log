@@ -1,4 +1,4 @@
-﻿Build started 12/17/2014 7:34:44 PM.
+﻿Build started 12/18/2014 9:08:16 AM.
      1>Project "D:\framework-openGL\SimpleOpenGL\SimpleOpenGL.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
@@ -8,34 +8,26 @@
      1>d:\framework-opengl\simpleopengl\octree.h(108): warning C4018: '<' : signed/unsigned mismatch
      1>d:\framework-opengl\simpleopengl\octree.h(151): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
      1>d:\framework-opengl\simpleopengl\octree.h(152): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>d:\framework-opengl\simpleopengl\main.cpp(110): error C3861: 'glutPostRedisplay': identifier not found
-     1>d:\framework-opengl\simpleopengl\main.cpp(112): error C2065: 'glfwpostred' : undeclared identifier
-     1>d:\framework-opengl\simpleopengl\main.cpp(112): error C2143: syntax error : missing ';' before '}'
-     1>d:\framework-opengl\simpleopengl\main.cpp(117): error C2065: 'GLUT_CURSOR_NONE' : undeclared identifier
-     1>d:\framework-opengl\simpleopengl\main.cpp(117): error C3861: 'glutSetCursor': identifier not found
-     1>d:\framework-opengl\simpleopengl\main.cpp(174): warning C4018: '<' : signed/unsigned mismatch
-     1>d:\framework-opengl\simpleopengl\main.cpp(214): warning C4018: '<' : signed/unsigned mismatch
-     1>d:\framework-opengl\simpleopengl\main.cpp(242): warning C4018: '<' : signed/unsigned mismatch
-     1>d:\framework-opengl\simpleopengl\main.cpp(246): warning C4018: '<' : signed/unsigned mismatch
-     1>d:\framework-opengl\simpleopengl\main.cpp(250): warning C4018: '<' : signed/unsigned mismatch
-     1>d:\framework-opengl\simpleopengl\main.cpp(254): warning C4018: '<' : signed/unsigned mismatch
-     1>d:\framework-opengl\simpleopengl\main.cpp(264): error C2065: 'GLUT_DOWN' : undeclared identifier
-     1>d:\framework-opengl\simpleopengl\main.cpp(268): error C2065: 'GLUT_LEFT_BUTTON' : undeclared identifier
-     1>d:\framework-opengl\simpleopengl\main.cpp(268): error C2051: case expression not constant
-     1>d:\framework-opengl\simpleopengl\main.cpp(269): error C2065: 'GLUT_RIGHT_BUTTON' : undeclared identifier
-     1>d:\framework-opengl\simpleopengl\main.cpp(269): error C2051: case expression not constant
-     1>d:\framework-opengl\simpleopengl\main.cpp(270): warning C4060: switch statement contains no 'case' or 'default' labels
-     1>d:\framework-opengl\simpleopengl\main.cpp(275): error C3861: 'glutPostRedisplay': identifier not found
-     1>d:\framework-opengl\simpleopengl\main.cpp(280): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>d:\framework-opengl\simpleopengl\main.cpp(290): error C3861: 'glutWarpPointer': identifier not found
-     1>d:\framework-opengl\simpleopengl\main.cpp(295): error C3861: 'glutPostRedisplay': identifier not found
-     1>d:\framework-opengl\simpleopengl\main.cpp(402): error C3861: 'glutMouseFunc': identifier not found
-     1>d:\framework-opengl\simpleopengl\main.cpp(403): error C3861: 'glutPassiveMotionFunc': identifier not found
-     1>d:\framework-opengl\simpleopengl\main.cpp(404): error C3861: 'glutKeyboardFunc': identifier not found
-     1>d:\framework-opengl\simpleopengl\main.cpp(405): error C3861: 'glutDisplayFunc': identifier not found
-     1>d:\framework-opengl\simpleopengl\main.cpp(444): error C3861: 'glutMainLoop': identifier not found
+     1>d:\framework-opengl\simpleopengl\main.cpp(175): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(184): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>d:\framework-opengl\simpleopengl\main.cpp(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>d:\framework-opengl\simpleopengl\main.cpp(198): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>d:\framework-opengl\simpleopengl\main.cpp(203): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
+     1>d:\framework-opengl\simpleopengl\main.cpp(215): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(243): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(247): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(251): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(255): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(289): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\framework-opengl\simpleopengl\main.cpp(291): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\framework-opengl\simpleopengl\main.cpp(294): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+     1>d:\framework-opengl\simpleopengl\main.cpp(459): error C3861: 'glutMainLoop': identifier not found
      1>Done Building Project "D:\framework-openGL\SimpleOpenGL\SimpleOpenGL.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:01.24
+Time Elapsed 00:00:00.86
