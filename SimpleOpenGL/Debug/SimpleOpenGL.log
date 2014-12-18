@@ -1,126 +1,41 @@
-﻿Build started 12/15/2014 1:28:25 AM.
-     1>Project "\\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\SimpleOpenGL.vcxproj" on node 2 (Build target(s)).
+﻿Build started 12/17/2014 7:34:44 PM.
+     1>Project "D:\framework-openGL\SimpleOpenGL\SimpleOpenGL.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AABBCollider.cpp Camera.cpp Cone.cpp Cube.cpp Cylinder.cpp GameObject.cpp Lerp.cpp Light.cpp Main.cpp Mesh.cpp ObjLoader.cpp Octree.cpp Shader.cpp shaderProgram.cpp Sphere.cpp SphereCollider.cpp VertexBufferObject.cpp Window.cpp
-         Window.cpp
-         VertexBufferObject.cpp
-         SphereCollider.cpp
-         Sphere.cpp
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\sphere.cpp(8): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\sphere.cpp(10): warning C4018: '<' : signed/unsigned mismatch
-         shaderProgram.cpp
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\shaderprogram.cpp(34): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\shaderprogram.cpp(62): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
-         Shader.cpp
-         Octree.cpp
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\octree.h(78): warning C4018: '>=' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\octree.h(97): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\octree.h(108): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\octree.h(151): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\octree.h(152): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-         ObjLoader.cpp
-         Mesh.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
          Main.cpp
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\octree.h(78): warning C4018: '>=' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\octree.h(97): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\octree.h(108): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\main.cpp(172): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\main.cpp(181): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\main.cpp(187): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\main.cpp(195): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\main.cpp(200): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(311) : see declaration of 'sscanf'
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\main.cpp(212): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\main.cpp(240): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\main.cpp(244): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\main.cpp(248): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\main.cpp(252): warning C4018: '<' : signed/unsigned mismatch
-         Light.cpp
-         Lerp.cpp
-         GameObject.cpp
-         Cylinder.cpp
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cylinder.cpp(9): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cylinder.cpp(11): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cylinder.cpp(37): warning C4018: '<' : signed/unsigned mismatch
-         Cube.cpp
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(11): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(13): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(40): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(42): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(68): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(70): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(98): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(100): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(127): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(129): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(157): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cube.cpp(159): warning C4018: '<' : signed/unsigned mismatch
-         Cone.cpp
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cone.cpp(11): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cone.cpp(13): warning C4018: '<' : signed/unsigned mismatch
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\cone.cpp(38): warning C4018: '<' : signed/unsigned mismatch
-         Camera.cpp
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\camera.cpp(5): warning C4305: '=' : truncation from 'double' to 'float'
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\camera.cpp(11): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\camera.cpp(12): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\camera.cpp(13): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\camera.cpp(18): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\camera.cpp(28): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\camera.cpp(38): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\camera.cpp(48): warning C4305: 'initializing' : truncation from 'double' to 'float'
-         AABBCollider.cpp
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\aabbcollider.cpp(9): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\aabbcollider.cpp(10): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\aabbcollider.cpp(11): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\aabbcollider.cpp(12): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\aabbcollider.cpp(13): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\aabbcollider.cpp(14): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
-         Generating Code...
-     1>\\banner.main.ad.rit.edu\students\jsl9284\igmprofile\desktop\objectloadingv2\simpleopengl\octree.h(122): warning C4715: 'Node::detectCollision' : not all control paths return a value
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\Debug\SimpleOpenGL.exe" /INCREMENTAL /NOLOGO glut32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\Debug\SimpleOpenGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\Debug\SimpleOpenGL.lib" /MACHINE:X86 Debug\AABBCollider.obj
-         Debug\Camera.obj
-         Debug\Cone.obj
-         Debug\Cube.obj
-         Debug\Cylinder.obj
-         Debug\GameObject.obj
-         Debug\Lerp.obj
-         Debug\Light.obj
-         Debug\Main.obj
-         Debug\Mesh.obj
-         Debug\ObjLoader.obj
-         Debug\Octree.obj
-         Debug\Shader.obj
-         Debug\shaderProgram.obj
-         Debug\Sphere.obj
-         Debug\SphereCollider.obj
-         Debug\VertexBufferObject.obj
-         Debug\Window.obj
-         SOIL.lib(SOIL.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
-     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
-     1>AABBCollider.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
-     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
-         Generating code
-         Finished generating code
-     1>SOIL.lib(SOIL.obj) : warning LNK4204: '\\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>SOIL.lib(stb_image_aug.obj) : warning LNK4204: '\\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>SOIL.lib(image_helper.obj) : warning LNK4204: '\\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
-     1>SOIL.lib(image_DXT.obj) : warning LNK4204: '\\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\Debug\vc110.pdb' is missing debugging information for referencing module; linking object as if no debug info
-         SimpleOpenGL.vcxproj -> \\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\Debug\SimpleOpenGL.exe
-       PostBuildEvent:
-         xcopy "\\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\GL\x86\bin" "\\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\Debug" /y
-         :VCEnd
-         \\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\GL\x86\bin\glew32.dll
-         \\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\GL\x86\bin\glew32mx.dll
-         \\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\GL\x86\bin\glut32.dll
-         3 File(s) copied
-     1>Done Building Project "\\banner.main.ad.rit.edu\students\jsl9284\IGMProfile\Desktop\ObjectLoadingv2\SimpleOpenGL\SimpleOpenGL.vcxproj" (Build target(s)).
+     1>d:\framework-opengl\simpleopengl\octree.h(78): warning C4018: '>=' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\octree.h(97): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\octree.h(108): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\octree.h(151): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\framework-opengl\simpleopengl\octree.h(152): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>d:\framework-opengl\simpleopengl\main.cpp(110): error C3861: 'glutPostRedisplay': identifier not found
+     1>d:\framework-opengl\simpleopengl\main.cpp(112): error C2065: 'glfwpostred' : undeclared identifier
+     1>d:\framework-opengl\simpleopengl\main.cpp(112): error C2143: syntax error : missing ';' before '}'
+     1>d:\framework-opengl\simpleopengl\main.cpp(117): error C2065: 'GLUT_CURSOR_NONE' : undeclared identifier
+     1>d:\framework-opengl\simpleopengl\main.cpp(117): error C3861: 'glutSetCursor': identifier not found
+     1>d:\framework-opengl\simpleopengl\main.cpp(174): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(214): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(242): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(246): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(250): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(254): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\framework-opengl\simpleopengl\main.cpp(264): error C2065: 'GLUT_DOWN' : undeclared identifier
+     1>d:\framework-opengl\simpleopengl\main.cpp(268): error C2065: 'GLUT_LEFT_BUTTON' : undeclared identifier
+     1>d:\framework-opengl\simpleopengl\main.cpp(268): error C2051: case expression not constant
+     1>d:\framework-opengl\simpleopengl\main.cpp(269): error C2065: 'GLUT_RIGHT_BUTTON' : undeclared identifier
+     1>d:\framework-opengl\simpleopengl\main.cpp(269): error C2051: case expression not constant
+     1>d:\framework-opengl\simpleopengl\main.cpp(270): warning C4060: switch statement contains no 'case' or 'default' labels
+     1>d:\framework-opengl\simpleopengl\main.cpp(275): error C3861: 'glutPostRedisplay': identifier not found
+     1>d:\framework-opengl\simpleopengl\main.cpp(280): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\framework-opengl\simpleopengl\main.cpp(290): error C3861: 'glutWarpPointer': identifier not found
+     1>d:\framework-opengl\simpleopengl\main.cpp(295): error C3861: 'glutPostRedisplay': identifier not found
+     1>d:\framework-opengl\simpleopengl\main.cpp(402): error C3861: 'glutMouseFunc': identifier not found
+     1>d:\framework-opengl\simpleopengl\main.cpp(403): error C3861: 'glutPassiveMotionFunc': identifier not found
+     1>d:\framework-opengl\simpleopengl\main.cpp(404): error C3861: 'glutKeyboardFunc': identifier not found
+     1>d:\framework-opengl\simpleopengl\main.cpp(405): error C3861: 'glutDisplayFunc': identifier not found
+     1>d:\framework-opengl\simpleopengl\main.cpp(444): error C3861: 'glutMainLoop': identifier not found
+     1>Done Building Project "D:\framework-openGL\SimpleOpenGL\SimpleOpenGL.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:01:17.76
+Time Elapsed 00:00:01.24
